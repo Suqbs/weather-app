@@ -59,6 +59,28 @@ body {
   background-color: #00C0FF;
   font-family: poppins-regular, sans-serif;
   color: #333;
-  
+
+}
+
+h1 {
+    font-family: poppins-bold, sans-serif;
+    font-size: 2rem;
+    margin-block-end: 1rem;
 }
 /* GLOBAL STYLES ENDS HERE */
+
+/* GENERIC STYLES */
+.container {
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+/* GENERIC STYLES ENDS HERE */
+
+/* HEADER STYLES */
+    
