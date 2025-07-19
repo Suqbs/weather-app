@@ -1,11 +1,37 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weather App</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Know Your Weather</h1>
+        <p>📍 Get the latest weather information for your location. 📍</p>
+      </header>
+
+      <main id="weather-data">
+        <section class="current-day-section">
+          <div class="current-day-card">
+            <p id="location"><span id="location-name">London, England, United Kingdom</span></p>
+            <p id="date">Date: <span id="date-value">Saturday, July 19, 2025</span></p>
+            <p id="temperature">Temperature: <span id="temp-value">20.3</span>°C</p>
+            <p id="feels-like">
+              Feels Like: <span id="feels-like-value">20.5</span>°C
+            </p>
+            <p id="condition">Condition: <span id="condition-value">Rain, Partially cloudy</span></p>
+          </div>
+        </section>
+
+        <section class="forecast-section">
+          <!-- <h2>14-Day Forecast</h2> -->
+          <div class="forecast-cards">
+            <!-- Forecast cards will be dynamically generated here -->
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
 </html>
